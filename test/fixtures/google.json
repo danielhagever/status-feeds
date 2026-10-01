@@ -1,0 +1,535 @@
+[
+ {
+  "id": "BoKRw5LNb3Vb2NadUJRU",
+  "number": "4540119311768408175",
+  "begin": "2026-09-25T15:47:00+00:00",
+  "created": "2026-09-25T16:29:32+00:00",
+  "end": "2026-09-25T16:40:00+00:00",
+  "modified": "2026-09-25T16:53:22+00:00",
+  "external_desc": "**Summary:**\nMitigating elevated error rate with Google Workspace Studio web.\n**Description:**\nMitigation work is currently underway by our engineering team.\nWe do not have an ETA for mitigation at this point.\nWe will provide more information by Friday, 2026-09-25 10:30 PDT.\n**Symptoms:**\nCustomers may experience an endless loading screen when attempting to access Google Workspace Studio on the web.\n**Workaround:**\nNone at this time.",
+  "updates": [
+   {
+    "created": "2026-09-25T16:52:54+00:00",
+    "modified": "2026-09-25T16:53:22+00:00",
+    "when": "2026-09-25T16:52:54+00:00",
+    "text": "**Summary:**\nMitigated elevated error rate with Google Workspace Studio web.\n**Description:**\nThe issue with Google Workspace Studio has been resolved for all affected users as of Friday, 2026-09-25 09:40 PDT.\nFrom preliminary analysis, the root cause of the issue is a recent rollout. Our engineering team has rolled back which mitigated the issue.\nWe thank you for your patience while we worked on resolving the issue.\n**Symptoms:**\nCustomers may have experienced an endless loading screen when attempting to access Google Workspace Studio on the web.\n**Workaround:**\nThe issue is now mitigated.",
+    "status": "AVAILABLE"
+   },
+   {
+    "created": "2026-09-25T16:29:32+00:00",
+    "modified": "2026-09-25T16:52:54+00:00",
+    "when": "2026-09-25T16:29:32+00:00",
+    "text": "**Summary:**\nMitigating elevated error rate with Google Workspace Studio web.\n**Description:**\nMitigation work is currently underway by our engineering team.\nWe do not have an ETA for mitigation at this point.\nWe will provide more information by Friday, 2026-09-25 10:30 PDT.\n**Symptoms:**\nCustomers may experience an endless loading screen when attempting to access Google Workspace Studio on the web.\n**Workaround:**\nNone at this time.",
+    "status": "SERVICE_INFORMATION"
+   }
+  ],
+  "most_recent_update": {
+   "created": "2026-09-25T16:52:54+00:00",
+   "modified": "2026-09-25T16:53:22+00:00",
+   "when": "2026-09-25T16:52:54+00:00",
+   "text": "**Summary:**\nMitigated elevated error rate with Google Workspace Studio web.\n**Description:**\nThe issue with Google Workspace Studio has been resolved for all affected users as of Friday, 2026-09-25 09:40 PDT.\nFrom preliminary analysis, the root cause of the issue is a recent rollout. Our engineering team has rolled back which mitigated the issue.\nWe thank you for your patience while we worked on resolving the issue.\n**Symptoms:**\nCustomers may have experienced an endless loading screen when attempting to access Google Workspace Studio on the web.\n**Workaround:**\nThe issue is now mitigated.",
+   "status": "AVAILABLE"
+  },
+  "status_impact": "SERVICE_INFORMATION",
+  "severity": "low",
+  "service_key": "m5tLdjJLc4EL8ZTnL5RZ",
+  "service_name": "Google Workspace Studio",
+  "affected_products": [
+   {
+    "title": "Google Workspace Studio",
+    "id": "m5tLdjJLc4EL8ZTnL5RZ"
+   }
+  ],
+  "uri": "incidents/BoKRw5LNb3Vb2NadUJRU"
+ },
+ {
+  "id": "B5V4MfnVp97nxoTYbxdX",
+  "number": "9353823205405529898",
+  "begin": "2026-09-18T05:00:00+00:00",
+  "created": "2026-09-22T21:38:51+00:00",
+  "end": "2026-09-24T18:00:00+00:00",
+  "modified": "2026-09-25T00:04:37+00:00",
+  "external_desc": "**Title:**\nGmail Android App users on the latest Gmail Android release may experience issues accessing their inbox.\n**Description:**\nOur engineering team has identified the root cause and is actively working on mitigating the issue.\nWe will provide more information by Tuesday, 2026-09-22 18:00 PDT.\n**Symptoms:**\n- Users on the Gmail Android app are finding that their accounts unexpectedly appear logged out.\n- Upon re-login, the process completes but the app fails to recognize the account.\n- Users receive an error message stating the account is already added.\n**Workaround:**\nThe workaround for the Gmail app issue is to uninstall recent application updates and revert to the system's base version of Gmail. Optionally reinstall the latest version of the Gmail app from play store.\nAlternatively, users can access https://mail.google.com on their mobile browsers.",
+  "updates": [
+   {
+    "created": "2026-09-25T00:04:24+00:00",
+    "modified": "2026-09-25T00:04:37+00:00",
+    "when": "2026-09-25T00:04:24+00:00",
+    "text": "**summary**\nGmail Android App users on the previous Gmail Android release may have experienced issues accessing their inbox.\n**Description**\nThe issue with Gmail Android App has been resolved for all affected users as of Thursday, 2026-09-24 11:00 PDT.\nWe thank you for your patience while we worked on resolving the issue.\n**Symptoms**\nUsers on the Gmail Android app may observe sudden, unexpected account logout.\nUpon re-login, the process completes but the app may fail to recognize the account.\nUsers may receive an error message stating the account is already added.\n**Workaround**\nA fix has been rolled out with the latest version of the Gmail Android app. Users can update to the latest version within the Play Store to resolve this issue.",
+    "status": "AVAILABLE"
+   },
+   {
+    "created": "2026-09-24T22:29:58+00:00",
+    "modified": "2026-09-25T00:04:24+00:00",
+    "when": "2026-09-24T22:29:58+00:00",
+    "text": "**Title:**\nGmail Android App users on the latest Gmail Android release may experience issues accessing their inbox.\n**Description:**\nOur engineering team has identified the root cause and is rolling out a fix. The updated version of the Gmail app is currently available to an initial group of users to ensure stability, before a global rollout is initiated.\nWe will provide our next update by Thursday, 2026-09-24 18:30 PDT.\n**Symptoms:**\n- Users on the Gmail Android app may observe sudden, unexpected account logout.\n- Upon re-login, the process completes but the app may fail to recognize the account.\n- Users may receive an error message stating the account is already added.\n**Workaround:**\nThe workaround for the Gmail app issue is to uninstall recent application updates and revert to the system's base version of Gmail. Optionally reinstall the latest version of the Gmail app from play store.\nAlternatively, users can access https://mail.google.com on their mobile browsers.",
+    "status": "SERVICE_INFORMATION"
+   },
+   {
+    "created": "2026-09-24T16:02:15+00:00",
+    "modified": "2026-09-24T22:29:58+00:00",
+    "when": "2026-09-24T16:02:15+00:00",
+    "text": "**Title:**\nGmail Android App users on the latest Gmail Android release may experience issues accessing their inbox.\n**Description:**\nOur engineering team has identified the root cause and is rolling out a fix. The updated version of the Gmail app is currently available to an initial group of users to ensure stability, before a global rollout is initiated.\nWe will provide our next update by Thursday, 2026-09-24 16:00 PDT.\n**Symptoms:**\n- Users on the Gmail Android app may observe sudden, unexpected account logout.\n- Upon re-login, the process completes but the app may fail to recognize the account.\n- Users may receive an error message stating the account is already added.\n**Workaround:**\nThe workaround for the Gmail app issue is to uninstall recent application updates and revert to the system's base version of Gmail. Optionally reinstall the latest version of the Gmail app from play store.\nAlternatively, users can access https://mail.google.com on their mobile browsers.",
+    "status": "SERVICE_INFORMATION"
+   },
+   {
+    "created": "2026-09-24T00:10:38+00:00",
+    "modified": "2026-09-24T16:02:15+00:00",
+    "when": "2026-09-24T00:10:38+00:00",
+    "text": "**Title:**\nGmail Android App users on the latest Gmail Android release may experience issues accessing their inbox.\n**Description:**\nOur engineering team has identified the root cause and is rolling out a fix. The updated version of the Gmail app is currently available to an initial group of users to ensure stability, before a global rollout is initiated.\nWe will provide our next update by Thursday, 2026-09-24 10:00 PDT\n**Symptoms:**\n- Users on the Gmail Android app may observe sudden, unexpected account logout.\n- Upon re-login, the process completes but the app may fail to recognize the account.\n- Users may receive an error message stating the account is already added.\n**Workaround:**\nThe workaround for the Gmail app issue is to uninstall recent application updates and revert to the system's base version of Gmail. Optionally reinstall the latest version of the Gmail app from play store.\nAlternatively, users can access https://mail.google.com on their mobile browsers.",
+    "status": "SERVICE_INFORMATION"
+   },
+   {
+    "created": "2026-09-23T16:35:28+00:00",
+    "modified": "2026-09-24T00:10:38+00:00",
+    "when": "2026-09-23T16:35:28+00:00",
+    "text": "**Title:**\nGmail Android App users on the latest Gmail Android release may experience issues accessing their inbox.\n**Description:**\nOur engineering team has identified the root cause and is actively working on mitigating the issue.\nWe will provide more information by Wednesday, 2026-09-23 17:00 PDT.\n**Symptoms:**\n- Users on the Gmail Android app may observe sudden, unexpected account logout.\n- Upon re-login, the process completes but the app may fail to recognize the account.\n- Users may receive an error message stating the account is already added.\n**Workaround:**\nThe workaround for the Gmail app issue is to uninstall recent application updates and revert to the system's base version of Gmail. Optionally reinstall the latest version of the Gmail app from play store.\nAlternatively, users can access https://mail.google.com on their mobile browsers.",
+    "status": "SERVICE_INFORMATION"
+   },
+   {
+    "created": "2026-09-23T02:56:03+00:00",
+    "modified": "2026-09-23T16:35:28+00:00",
+    "when": "2026-09-23T02:56:03+00:00",
+    "text": "**Title:**\nGmail Android App users on the latest Gmail Android release may experience issues accessing their inbox.\n**Description:**\nOur engineering team has identified the root cause and is actively working on mitigating the issue.\nWe will provide more information by Wednesday, 2026-09-23 10:00 PDT.\n**Symptoms:**\n- Users on the Gmail Android app may observe sudden, unexpected account logout.\n- Upon re-login, the process completes but the app may fail to recognize the account.\n- Users may receive an error message stating the account is already added.\n**Workaround:**\nThe workaround for the Gmail app issue is to uninstall recent application updates and revert to the system's base version of Gmail. Optionally reinstall the latest version of the Gmail app from play store.\nAlternatively, users can access https://mail.google.com on their mobile browsers.",
+    "status": "SERVICE_INFORMATION"
+   },
+   {
+    "created": "2026-09-23T00:49:34+00:00",
+    "modified": "2026-09-23T02:56:03+00:00",
+    "when": "2026-09-23T00:49:34+00:00",
+    "text": "**Title:**\nGmail Android App users on the latest Gmail Android release may experience issues accessing their inbox.\n**Description:**\nOur engineering team has identified the root cause and is actively working on mitigating the issue.\nWe will provide more information by Tuesday, 2026-09-22 20:30 PDT.\n**Symptoms:**\n- Users on the Gmail Android app are finding that their accounts unexpectedly appear logged out.\n- Upon re-login, the process completes but the app fails to recognize the account.\n- Users receive an error message stating the account is already added.\n**Workaround:**\nThe workaround for the Gmail app issue is to uninstall recent application updates and revert to the system's base version of Gmail. Optionally reinstall the latest version of the Gmail app from play store.\nAlternatively, users can access https://mail.google.com on their mobile browsers.",
+    "status": "SERVICE_INFORMATION"
+   },
+   {
+    "created": "2026-09-22T21:38:51+00:00",
+    "modified": "2026-09-23T00:49:34+00:00",
+    "when": "2026-09-22T21:38:51+00:00",
+    "text": "**Title:**\nGmail Android App users on the latest Gmail Android release may experience issues accessing their inbox.\n**Description:**\nOur engineering team has identified the root cause and is actively working on mitigating the issue.\nWe will provide more information by Tuesday, 2026-09-22 18:00 PDT.\n**Symptoms:**\n- Users on the Gmail Android app are finding that their accounts unexpectedly appear logged out.\n- Upon re-login, the process completes but the app fails to recognize the account.\n- Users receive an error message stating the account is already added.\n**Workaround:**\nThe workaround for the Gmail app issue is to uninstall recent application updates and revert to the system's base version of Gmail. Optionally reinstall the latest version of the Gmail app from play store.\nAlternatively, users can access https://mail.google.com on their mobile browsers.",
+    "status": "SERVICE_INFORMATION"
+   }
+  ],
+  "most_recent_update": {
+   "created": "2026-09-25T00:04:24+00:00",
+   "modified": "2026-09-25T00:04:37+00:00",
+   "when": "2026-09-25T00:04:24+00:00",
+   "text": "**summary**\nGmail Android App users on the previous Gmail Android release may have experienced issues accessing their inbox.\n**Description**\nThe issue with Gmail Android App has been resolved for all affected users as of Thursday, 2026-09-24 11:00 PDT.\nWe thank you for your patience while we worked on resolving the issue.\n**Symptoms**\nUsers on the Gmail Android app may observe sudden, unexpected account logout.\nUpon re-login, the process completes but the app may fail to recognize the account.\nUsers may receive an error message stating the account is already added.\n**Workaround**\nA fix has been rolled out with the latest version of the Gmail Android app. Users can update to the latest version within the Play Store to resolve this issue.",
+   "status": "AVAILABLE"
+  },
+  "status_impact": "SERVICE_INFORMATION",
+  "severity": "low",
+  "service_key": "prPt2Yra2CbGsbEm9cpC",
+  "service_name": "Gmail",
+  "affected_products": [
+   {
+    "title": "Gmail",
+    "id": "prPt2Yra2CbGsbEm9cpC"
+   }
+  ],
+  "uri": "incidents/B5V4MfnVp97nxoTYbxdX"
+ },
+ {
+  "id": "PbhPjRTjzPMk4whvjtmJ",
+  "number": "1965115762587368760",
+  "begin": "2026-09-16T14:04:00+00:00",
+  "created": "2026-09-16T16:36:16+00:00",
+  "end": "2026-09-16T14:41:00+00:00",
+  "modified": "2026-09-18T10:06:01+00:00",
+  "external_desc": "**Summary:**\nWe experienced intermittent latency with Google Drive\n**Description:**\nThe issue with Google Drive has been resolved for all affected customers as of Wednesday, 2026-09-16 07:41 PDT.\nWe thank you for your patience while we worked on resolving the issue. **Customer Symptoms:**\nUsers may have been unable to access Google Drive, experienced intermittent latency, or were unexpectedly prompted with CAPTCHAs when attempting to use the service.\n**Workaround:**\nUsers were advised to retry actions.",
+  "updates": [
+   {
+    "created": "2026-09-18T10:06:01+00:00",
+    "modified": "2026-09-18T10:06:01+00:00",
+    "when": "2026-09-18T10:06:01+00:00",
+    "text": "# Incident Report\n## Summary\nOn Wednesday, 16 September 2026, Google Drive experienced an issue where a subset of traffic was dropped for a duration of 39 minutes.\nWe sincerely apologize for the disruption this incident caused to your business. We recognize the critical role Google Cloud plays in your operations and deeply regret the impact on your services. Our engineering teams have resolved the issue and have taken immediate measures to address the incident. Additionally, engineering teams are conducting a comprehensive review of the incident to fully address the root cause and prevent the recurrence of such an event.\n## Root Cause\nThis incident was triggered by a planned capacity test which temporarily reduced Google Drive's serving capacity.\nThe sequence of events leading to the impact was as follows:\nEngineers initiated a routine capacity test, causing Drive to operate with reduced capacity.\nThe remaining available capacity was insufficient to handle peak user traffic.\nAs traffic exceeded capacity, the capacity protection system was triggered and began blocking legitimate Drive requests.\n## Remediation and Prevention\nThe issue was detected on Wednesday 16 September 2026 at 7:03 via our automated outage detector systems that monitor error rates and user queries.\nTo mitigate the symptoms, Google engineers initiated an immediate rollback of the capacity test to restore serving capacity. Additionally, engineers upsized available capacity and updated the system load limit threshold to add more capacity headroom.\nGoogle is committed to preventing a repeat of this issue in the future and is completing the following immediate actions:\n- Resilience and Resourcing: Ensure sufficient buffer capacity is available globally during capacity tests.\n- Address the Root Cause: Engineering is conducting a comprehensive review of capacity modeling and protection thresholds to ensure they correctly account for capacity tests during peak traffic periods.\n## Detailed Description of Impact\nOn Wednesday, 16 September 2026, from 07:03 to 07:43 US/Pacific, customers were unable to access Google Drive. A subset of overall traffic to Google Drive was dropped during this window.\nAffected users experienced failures, elevated latency, or timeouts when attempting to access, upload, or sync files in Google Drive.\n**Additional Information for Customers:**\nCustomers who experienced impact during this window are encouraged to review their deployment logs. If you continue to see lingering issues beyond the incident window, please file a support ticket via the Google Workspace support portal.",
+    "status": "AVAILABLE"
+   },
+   {
+    "created": "2026-09-16T20:14:08+00:00",
+    "modified": "2026-09-18T10:06:01+00:00",
+    "when": "2026-09-16T20:14:08+00:00",
+    "text": "# Preliminary Incident Report\nWe sincerely apologize for the disruption this incident caused to your business. We know how much you rely on Google Workspace, and we regret the impact on your productivity. We are working to address the root cause and prevent this from occurring in the future.\nPlease note, this information is based on our best knowledge at the time of posting and is subject to change as our investigation continues. A final Incident Report with preventative actions will be posted once our investigation is complete.\nIf you have experienced an impact outside of what is listed below, please reach out to Google Workspace Support using the help article https://support.google.com/a/answer/1047213.\nDate/Time of the Issue (All time US/Pacific)\n- Incident Start: 16 September 2026 07:03\n- Incident End: 16 September 2026 07:51\n- Duration: 0 hours, 47 minutes\n## Summary\nOn Wednesday, 16 September 2026, Google Workspace (specifically Google Drive) experienced an issue where a subset of traffic was dropped for a duration of 48 minutes.\n## Preliminary Root Cause\nThis incident was triggered by a planned capacity test, which temporarily reduced Google Drive's serving capacity.\nThe sequence of events leading to the impact was as follows:\nEngineers initiated a routine capacity test, causing Drive to operate with reduced capacity.\nThe remaining available capacity was insufficient to handle peak user traffic.\nAs traffic exceeded capacity, the capacity protection system was triggered and began blocking legitimate Drive requests.\n## Remediation\nThe issue was detected on Wednesday 16 September 2026 at 7:03 via automated outage detectors monitoring error rates and user queries.\nTo mitigate the symptoms, Google engineers initiated an immediate rollback of the capacity test to restore serving capacity. Additionally, engineers performed manual upsizing operations to provide more capacity headroom.\nGoogle is committed to preventing a repeat of this issue in the future and is completing the following immediate actions:\nResilience and Resourcing: Ensure sufficient buffer capacity is available globally during capacity tests.\nAddress the Root Cause: Engineering will conduct a comprehensive review of capacity modeling and capacity protection thresholds to ensure they correctly account for capacity tests during peak traffic periods.\n## Description of Impact\nOn Wednesday, 16 September 2026, from 07:03 to 07:51 US/Pacific, Drive customers were unable to access Drive. A subset of overall traffic to Google Drive was dropped during this window.\nAffected users would have experienced failures, elevated latency, or timeouts when attempting to access, upload, or sync files in Google Drive.\nAdditional Information for Customers:\nCustomers who experienced impact during this window are encouraged to review their deployment logs. If you continue to see lingering issues after the incident window, please file a support ticket via the Google Workspace support portal.",
+    "status": "AVAILABLE"
+   },
+   {
+    "created": "2026-09-16T16:36:16+00:00",
+    "modified": "2026-09-16T20:14:08+00:00",
+    "when": "2026-09-16T16:36:16+00:00",
+    "text": "**Summary:**\nWe experienced intermittent latency with Google Drive\n**Description:**\nThe issue with Google Drive has been resolved for all affected customers as of Wednesday, 2026-09-16 07:41 PDT.\nWe thank you for your patience while we worked on resolving the issue. **Customer Symptoms:**\nUsers may have been unable to access Google Drive, experienced intermittent latency, or were unexpectedly prompted with CAPTCHAs when attempting to use the service.\n**Workaround:**\nUsers were advised to retry actions.",
+    "status": "SERVICE_DISRUPTION"
+   }
+  ],
+  "most_recent_update": {
+   "created": "2026-09-18T10:06:01+00:00",
+   "modified": "2026-09-18T10:06:01+00:00",
+   "when": "2026-09-18T10:06:01+00:00",
+   "text": "# Incident Report\n## Summary\nOn Wednesday, 16 September 2026, Google Drive experienced an issue where a subset of traffic was dropped for a duration of 39 minutes.\nWe sincerely apologize for the disruption this incident caused to your business. We recognize the critical role Google Cloud plays in your operations and deeply regret the impact on your services. Our engineering teams have resolved the issue and have taken immediate measures to address the incident. Additionally, engineering teams are conducting a comprehensive review of the incident to fully address the root cause and prevent the recurrence of such an event.\n## Root Cause\nThis incident was triggered by a planned capacity test which temporarily reduced Google Drive's serving capacity.\nThe sequence of events leading to the impact was as follows:\nEngineers initiated a routine capacity test, causing Drive to operate with reduced capacity.\nThe remaining available capacity was insufficient to handle peak user traffic.\nAs traffic exceeded capacity, the capacity protection system was triggered and began blocking legitimate Drive requests.\n## Remediation and Prevention\nThe issue was detected on Wednesday 16 September 2026 at 7:03 via our automated outage detector systems that monitor error rates and user queries.\nTo mitigate the symptoms, Google engineers initiated an immediate rollback of the capacity test to restore serving capacity. Additionally, engineers upsized available capacity and updated the system load limit threshold to add more capacity headroom.\nGoogle is committed to preventing a repeat of this issue in the future and is completing the following immediate actions:\n- Resilience and Resourcing: Ensure sufficient buffer capacity is available globally during capacity tests.\n- Address the Root Cause: Engineering is conducting a comprehensive review of capacity modeling and protection thresholds to ensure they correctly account for capacity tests during peak traffic periods.\n## Detailed Description of Impact\nOn Wednesday, 16 September 2026, from 07:03 to 07:43 US/Pacific, customers were unable to access Google Drive. A subset of overall traffic to Google Drive was dropped during this window.\nAffected users experienced failures, elevated latency, or timeouts when attempting to access, upload, or sync files in Google Drive.\n**Additional Information for Customers:**\nCustomers who experienced impact during this window are encouraged to review their deployment logs. If you continue to see lingering issues beyond the incident window, please file a support ticket via the Google Workspace support portal.",
+   "status": "AVAILABLE"
+  },
+  "status_impact": "SERVICE_DISRUPTION",
+  "severity": "medium",
+  "service_key": "VHNA7p3Z5p3iakj5sA8V",
+  "service_name": "Google Drive",
+  "affected_products": [
+   {
+    "title": "Google Drive",
+    "id": "VHNA7p3Z5p3iakj5sA8V"
+   }
+  ],
+  "uri": "incidents/PbhPjRTjzPMk4whvjtmJ"
+ },
+ {
+  "id": "fJ4691Pe2g9KsTbP8g5F",
+  "number": "11425782758836097339",
+  "begin": "2026-09-11T13:00:00+00:00",
+  "created": "2026-09-11T20:45:19+00:00",
+  "end": "2026-09-11T20:22:00+00:00",
+  "modified": "2026-09-11T20:45:42+00:00",
+  "external_desc": "**Summary:**\nMitigated intermittent elevated error rates with Gemini 3.1 Pro models on Gemini Web and Gemini App.\n**Description:**\nBetween 6:00 PDT and 13:22 PDT on 11 September 2026, a subset of Gemini users may have experienced elevated error rates with Gemini 3.1 Pro models on Gemini Web and Gemini App.\nFrom preliminary analysis, the issue was triggered by a recent rollout. Our engineers identified the cause and mitigated it with a code change.\nWe thank you for your patience while we worked on resolving the issue.\n**Symptoms:**\nCustomers may have encountered intermittent errors when using Gemini 3.1 Pro models on Gemini Web and Gemini App.",
+  "updates": [
+   {
+    "created": "2026-09-11T20:45:19+00:00",
+    "modified": "2026-09-11T20:45:42+00:00",
+    "when": "2026-09-11T20:45:19+00:00",
+    "text": "**Summary:**\nMitigated intermittent elevated error rates with Gemini 3.1 Pro models on Gemini Web and Gemini App.\n**Description:**\nBetween 6:00 PDT and 13:22 PDT on 11 September 2026, a subset of Gemini users may have experienced elevated error rates with Gemini 3.1 Pro models on Gemini Web and Gemini App.\nFrom preliminary analysis, the issue was triggered by a recent rollout. Our engineers identified the cause and mitigated it with a code change.\nWe thank you for your patience while we worked on resolving the issue.\n**Symptoms:**\nCustomers may have encountered intermittent errors when using Gemini 3.1 Pro models on Gemini Web and Gemini App.",
+    "status": "AVAILABLE"
+   }
+  ],
+  "most_recent_update": {
+   "created": "2026-09-11T20:45:19+00:00",
+   "modified": "2026-09-11T20:45:42+00:00",
+   "when": "2026-09-11T20:45:19+00:00",
+   "text": "**Summary:**\nMitigated intermittent elevated error rates with Gemini 3.1 Pro models on Gemini Web and Gemini App.\n**Description:**\nBetween 6:00 PDT and 13:22 PDT on 11 September 2026, a subset of Gemini users may have experienced elevated error rates with Gemini 3.1 Pro models on Gemini Web and Gemini App.\nFrom preliminary analysis, the issue was triggered by a recent rollout. Our engineers identified the cause and mitigated it with a code change.\nWe thank you for your patience while we worked on resolving the issue.\n**Symptoms:**\nCustomers may have encountered intermittent errors when using Gemini 3.1 Pro models on Gemini Web and Gemini App.",
+   "status": "AVAILABLE"
+  },
+  "status_impact": "SERVICE_INFORMATION",
+  "severity": "low",
+  "service_key": "npdyhgECDJ6tB66MxXyo",
+  "service_name": "Gemini",
+  "affected_products": [
+   {
+    "title": "Gemini",
+    "id": "npdyhgECDJ6tB66MxXyo"
+   }
+  ],
+  "uri": "incidents/fJ4691Pe2g9KsTbP8g5F"
+ },
+ {
+  "id": "y2ufhCB886p7rveYNnko",
+  "number": "1967299596760361422",
+  "begin": "2026-08-28T17:50:00+00:00",
+  "created": "2026-08-28T19:25:37+00:00",
+  "end": "2026-08-28T20:34:00+00:00",
+  "modified": "2026-09-04T03:43:27+00:00",
+  "external_desc": "**Summary:**\nGoogle Chat users are experiencing an issue where they receive notifications for new messages, but the actual messages fail to appear in their chat application unless the user refreshes their view.\n**Description:**\nWe are experiencing an intermittent issue with Google Chat Friday, 2026-08-28 10:25 PDT.\nOur engineering team has investigated the issue and are currently working on mitigating the issue.\nWe will provide more information by Friday, 2026-08-28 14:15 PDT with current details.\nWe apologize to all who are affected by the disruption.\n**Customer Symptoms:**\nUsers are experiencing an issue where they receive notifications for new messages, but the actual messages fail to appear in their chat application unless the user refreshes their view\n**Workaround:**\nUsers can refresh to see new messages",
+  "updates": [
+   {
+    "created": "2026-09-04T03:43:07+00:00",
+    "modified": "2026-09-04T03:43:27+00:00",
+    "when": "2026-09-04T03:43:07+00:00",
+    "text": "## Incident Report\n## Summary\nOn Friday, August 28, 2026, between 10:50 US/Pacific and 13:34 US/Pacific for a duration of 2 hours and 44 minutes, Google Chat users experienced delays in receiving real-time incoming messages within active conversation streams across web, desktop, and mobile applications. While users continued to receive notifications for new messages, the message contents did not automatically render in active conversation streams until the user manually refreshed the application or sent a reply message.\nTo our valued Google Workspace customers, we are deeply sorry for the service interruption you experienced. We are taking immediate and decisive action to address the issue and strengthen our systems against future incidents.\n## Root Cause\nThe incident was triggered during a global database schema rollout. An incompatible database schema change caused database writes required for message delivery to start failing.\nSpecifically, a mechanism for schema synchronization\u2014designed to ensure high consistency between primary storage and live message delivery\u2014encountered a rare race condition bug. This caused backend message dispatchers to attempt writes against an unready schema state, leading to write failures.\nBecause live message delivery had an active dependency on these writes completing successfully before pushing events to user screens, the failure caused incoming messages to experience synchronization delays. Separate push notification services and core message storage operated independently and were unaffected, which is why users still received alerts for new messages while active conversation streams experienced delays.\n## Remediation and Prevention\nThe issue was detected through automated backend alerting on dispatch error rates, alongside corresponding customer reports. Google Engineering initiated parallel workstreams to restore service.\n* At 12:44 US/Pacific, Google Engineering directly mitigated the source of the issue by removing the dependency that live message delivery had on the failing database write. This allowed new incoming messages to bypass the failed write and immediately resume normal real-time delivery to user screens.\n* At 13:00 US/Pacific, Engineering halted and reverted the database schema change to its previous verified stable version, restoring full database compatibility.\n* By 13:34 US/Pacific, as queued messages were processed, real-time message synchronization delays returned to 0% across all customer domains. Engineering verified that full service health was restored with zero message loss.\nTo prevent this from happening again, we are executing the following preventative actions:\n* **Hardened internal detection:** Strengthen automated validation and verification to cover this specific failure scenario across pre-production and internal rollout stages. This aims to catch and mitigate schema incompatibilities and synchronization edge cases internally before any customer traffic can be impacted in the future.\n* **Resilience Against Race Conditions:** Implement Architectural improvements to make the schema synchronization and message delivery architecture resilient to race conditions. This aims to ensure that background schema and config synchronization inconsistencies cannot disrupt real-time message delivery.\n\u00a0\n## Detailed Description of Impact\nThe incident impact window occurred between 10:50 US/Pacific and 13:34 US/Pacific on Friday, 28 August 2026\\. This issue applied globally to all Google Chat environments.\n**Google Chat:**\n* **Delayed message rendering:** New messages did not appear in active conversation streams automatically. Users were required to manually refresh their client or send a new message/react to force the stream to synchronize.\n* **Stalled read states and inbox sorting:** Background actions, such as updating unread badges and moving active spaces to the top of the inbox, experienced heavy internal error rates and were significantly delayed for users.\n* **Search indexing delays:** New messages sent during the outage window stalled in the indexing pipeline, experiencing delays in becoming searchable.\n**Scope Exclusions:**\n* **No Data Loss:** At no point was customer data lost or compromised. All messages transmitted during the incident window were securely captured in primary storage and successfully delivered to conversation streams once the backlog cleared.",
+    "status": "AVAILABLE"
+   },
+   {
+    "created": "2026-08-28T20:55:51+00:00",
+    "modified": "2026-09-04T03:43:07+00:00",
+    "when": "2026-08-28T20:55:51+00:00",
+    "text": "**Summary**\nGoogle Chat users experienced an issue where they received notifications for new messages, but the actual messages failed to appear in their chat application unless the user refreshed their view.\n**Description**\nThe issue with Google Chat has been resolved for all affected users as of Friday, 2026-08-28 13:45 PDT.\nFrom preliminary analysis the issue was triggered due to a recent change which was rolled back to mitigate the impact.\nWe thank you for your patience while we worked on resolving the issue.\n**Customer Symptoms**\nUsers were experiencing an issue where they received notifications for new messages, but the actual messages failed to appear in their chat application unless the user refreshed their view.\n**Workaround**\nNone as the issue is resolved.",
+    "status": "AVAILABLE"
+   },
+   {
+    "created": "2026-08-28T19:25:37+00:00",
+    "modified": "2026-08-28T20:55:51+00:00",
+    "when": "2026-08-28T19:25:37+00:00",
+    "text": "**Summary:**\nGoogle Chat users are experiencing an issue where they receive notifications for new messages, but the actual messages fail to appear in their chat application unless the user refreshes their view.\n**Description:**\nWe are experiencing an intermittent issue with Google Chat Friday, 2026-08-28 10:25 PDT.\nOur engineering team has investigated the issue and are currently working on mitigating the issue.\nWe will provide more information by Friday, 2026-08-28 14:15 PDT with current details.\nWe apologize to all who are affected by the disruption.\n**Customer Symptoms:**\nUsers are experiencing an issue where they receive notifications for new messages, but the actual messages fail to appear in their chat application unless the user refreshes their view\n**Workaround:**\nUsers can refresh to see new messages",
+    "status": "SERVICE_INFORMATION"
+   }
+  ],
+  "most_recent_update": {
+   "created": "2026-09-04T03:43:07+00:00",
+   "modified": "2026-09-04T03:43:27+00:00",
+   "when": "2026-09-04T03:43:07+00:00",
+   "text": "## Incident Report\n## Summary\nOn Friday, August 28, 2026, between 10:50 US/Pacific and 13:34 US/Pacific for a duration of 2 hours and 44 minutes, Google Chat users experienced delays in receiving real-time incoming messages within active conversation streams across web, desktop, and mobile applications. While users continued to receive notifications for new messages, the message contents did not automatically render in active conversation streams until the user manually refreshed the application or sent a reply message.\nTo our valued Google Workspace customers, we are deeply sorry for the service interruption you experienced. We are taking immediate and decisive action to address the issue and strengthen our systems against future incidents.\n## Root Cause\nThe incident was triggered during a global database schema rollout. An incompatible database schema change caused database writes required for message delivery to start failing.\nSpecifically, a mechanism for schema synchronization\u2014designed to ensure high consistency between primary storage and live message delivery\u2014encountered a rare race condition bug. This caused backend message dispatchers to attempt writes against an unready schema state, leading to write failures.\nBecause live message delivery had an active dependency on these writes completing successfully before pushing events to user screens, the failure caused incoming messages to experience synchronization delays. Separate push notification services and core message storage operated independently and were unaffected, which is why users still received alerts for new messages while active conversation streams experienced delays.\n## Remediation and Prevention\nThe issue was detected through automated backend alerting on dispatch error rates, alongside corresponding customer reports. Google Engineering initiated parallel workstreams to restore service.\n* At 12:44 US/Pacific, Google Engineering directly mitigated the source of the issue by removing the dependency that live message delivery had on the failing database write. This allowed new incoming messages to bypass the failed write and immediately resume normal real-time delivery to user screens.\n* At 13:00 US/Pacific, Engineering halted and reverted the database schema change to its previous verified stable version, restoring full database compatibility.\n* By 13:34 US/Pacific, as queued messages were processed, real-time message synchronization delays returned to 0% across all customer domains. Engineering verified that full service health was restored with zero message loss.\nTo prevent this from happening again, we are executing the following preventative actions:\n* **Hardened internal detection:** Strengthen automated validation and verification to cover this specific failure scenario across pre-production and internal rollout stages. This aims to catch and mitigate schema incompatibilities and synchronization edge cases internally before any customer traffic can be impacted in the future.\n* **Resilience Against Race Conditions:** Implement Architectural improvements to make the schema synchronization and message delivery architecture resilient to race conditions. This aims to ensure that background schema and config synchronization inconsistencies cannot disrupt real-time message delivery.\n\u00a0\n## Detailed Description of Impact\nThe incident impact window occurred between 10:50 US/Pacific and 13:34 US/Pacific on Friday, 28 August 2026\\. This issue applied globally to all Google Chat environments.\n**Google Chat:**\n* **Delayed message rendering:** New messages did not appear in active conversation streams automatically. Users were required to manually refresh their client or send a new message/react to force the stream to synchronize.\n* **Stalled read states and inbox sorting:** Background actions, such as updating unread badges and moving active spaces to the top of the inbox, experienced heavy internal error rates and were significantly delayed for users.\n* **Search indexing delays:** New messages sent during the outage window stalled in the indexing pipeline, experiencing delays in becoming searchable.\n**Scope Exclusions:**\n* **No Data Loss:** At no point was customer data lost or compromised. All messages transmitted during the incident window were securely captured in primary storage and successfully delivered to conversation streams once the backlog cleared.",
+   "status": "AVAILABLE"
+  },
+  "status_impact": "SERVICE_INFORMATION",
+  "severity": "low",
+  "service_key": "Ht9Vx5PFzDPHYvrnrvSk",
+  "service_name": "Google Chat",
+  "affected_products": [
+   {
+    "title": "Google Chat",
+    "id": "Ht9Vx5PFzDPHYvrnrvSk"
+   }
+  ],
+  "uri": "incidents/y2ufhCB886p7rveYNnko"
+ },
+ {
+  "id": "sjDiph2NXGAfkYYLfK7T",
+  "number": "9682992681334163277",
+  "begin": "2026-08-18T23:58:00+00:00",
+  "created": "2026-08-19T03:57:37+00:00",
+  "end": "2026-08-19T12:40:00+00:00",
+  "modified": "2026-08-24T16:31:00+00:00",
+  "external_desc": "**Summary**\nSome customers may experience slowness while using Google Drive.\n**Description**\nWe are experiencing an issue with Google Drive beginning Tuesday, 2026-08-18 16:58 PDT.\nOur engineering team is currently working on a potential fix while continuing to investigate the full root cause.\nWe will provide an update by Tuesday, 2026-08-18 22:00 PDT with current details.\nWe apologize to all who are affected by the disruption.\n**Symptoms**\nAffected customers may experience slowness while using Google Drive.\n**Workaround**\nNone at this time.",
+  "updates": [
+   {
+    "created": "2026-08-24T16:31:00+00:00",
+    "modified": "2026-08-24T16:31:00+00:00",
+    "when": "2026-08-24T16:31:00+00:00",
+    "text": "# Incident Report\n## Summary\nOn Tuesday, 18 August 2026 at 16:58 US/Pacific, an incident affecting Google Drive occurred for a duration of 12 hours and 42 minutes. Customers located in Australia, Philippines and New Zealand experienced severe latency, sporadic loading failures, and errors when accessing Google Drive.\u00a0\nTo our valued Google Workspace customers, we are deeply sorry for the service interruption you experienced. We are taking immediate and decisive action to address the issue and strengthen our systems against future incidents. Other Google Workspace services were not affected.\n## Root Cause\nGoogle utilizes a multi-tiered global load balancing and network routing architecture to serve traffic efficiently. To ensure fair use and prevent congestion, bandwidth allocation is managed by attributing traffic to specific downstream services.\nA misconfiguration in the attribution of traffic caused the bandwidth usage to be incorrectly attributed to the frontend network load balancing tier itself, rather than to the Drive service.\nThe sequence of events leading to customer impact was as follows:\n* Traffic from the regional load balancing tier was incorrectly attributed to the load balancing infrastructure rather than the Drive service.\n* Unrelated traffic caused network bandwidth usage attributed to the load balancing infrastructure in this region to exceed its quota.\n* Network bandwidth management systems applied throttling to this traffic to enforce quotas, causing severe network congestion affecting Drive traffic in this region.\n* This congestion led to increased latency, slowness, and error rates for users accessing Drive in the affected regions.\n## Remediation and Prevention\nGoogle engineers were alerted to the issue via automated monitoring and an influx of customer support cases, with initial incident response teams engaged by 17:21 US/Pacific on 18 August , 2026\\.\nEngineers initially attempted to alleviate the congestion by draining regional frontend traffic to an alternate geographic location, but this proved ineffective and was reverted. The team then mitigated the issue by migrating regional traffic to an upgraded internal network routing architecture, which correctly set the traffic attribution for Drive.\nNormal operations were fully restored at 05:40 once 100% of the regional traffic was migrated to the upgraded network architecture.\nTo prevent a recurrence of this issue, our engineering teams are undertaking the following structural preventative actions:\n* **Resilient Network Protocol Migration:** We are expediting the complete migration of all regional frontend traffic to the newer, resilient network routing protocol to ensure accurate bandwidth attribution under all congestion scenarios.\n* **Delegation Root Cause Remediation:** We are addressing the underlying mechanism that caused the incorrect delegation and analyzing similar cases across the fleet to ensure it does not reoccur.\n## Detailed Description of Impact\nFrom 18 August 2026, 16:58 to 19 August 2026, 05:40 US/Pacific for a duration of 12 hours, 42 minutes, Google Drive users in Australia, Philippines and New Zealand experienced severe performance degradation, including high latency and errors accessing Drive or listing files via Editors. Service was fully restored as of 19 August, 05:40 US/Pacific.\n**Google Drive:**\n* Elevated Latency: Users experienced extreme slowness when loading the Drive interface or accessing files, with initial data retrieval times heavily delayed.\n* Loading Failures and Errors: Many user requests timed out or returned HTTP 502 errors due to the aggressive network throttling dropping the connections.\n**Scope Exclusion:**\n* Customers accessing Google Drive from outside the Australia, Philippines and New Zealand regions were largely unaffected by this localized throttling event.\n* Other Google Workspace applications not reliant on this specific routing path remained stable during the incident window.",
+    "status": "AVAILABLE"
+   },
+   {
+    "created": "2026-08-20T20:00:17+00:00",
+    "modified": "2026-08-24T16:31:00+00:00",
+    "when": "2026-08-20T20:00:17+00:00",
+    "text": "# Preliminary Incident Report\nWe sincerely apologize for the disruption this incident caused to your business. We know how much you rely on Google Workspace, and we regret the impact on your productivity. We are working to address the root cause and prevent this from occurring in the future.\u00a0\nPlease note, this information is based on our best knowledge at the time of posting and is subject to change as our investigation continues. A final Incident Report with preventative actions will be posted once our investigation is complete.\u00a0\nIf you have experienced impact outside of what is listed below, please reach out to Google Workspace Support using the help article [**https://support.google.com/a/answer/1047213**](https://support.google.com/a/answer/1047213).\n## Date/Time of the Issue (All time US/Pacific)\nIncident Start: 18 August 2026 16:58\nIncident End: 19 August 2026 05:40\nDuration: 12 hours, 42 minutes\u00a0\n## Summary\nOn August 18, 2026 from 16:58 to August 19, 2026 05:40 US/Pacific, Drive customers in Australia, Philippines and New Zealand experienced degraded performance and slowness. During this period users also experienced 502 errors. Other Google Workspace services were not affected.\u00a0\n## Preliminary Root Cause\nGoogle utilizes a multi-tiered global load balancing and network routing architecture to serve traffic efficiently. To ensure fair use and prevent congestion, bandwidth allocation is managed by attributing traffic to specific downstream services.\nA misconfiguration in the attribution of traffic caused the bandwidth usage to be incorrectly attributed to the frontend network load balancing tier itself, rather than to the Drive service.\nThe sequence of events leading to customer impact was as follows:\n* Traffic from the regional load balancing tier was incorrectly attributed to the load balancing infrastructure rather than the Drive service.\n* Unrelated traffic caused network bandwidth usage attributed to the load balancing infrastructure in this region to exceed its quota.\n* Network bandwidth management systems applied throttling to this traffic to enforce quotas, causing severe network congestion affecting Drive traffic in this region.\n* This congestion led to increased latency, slowness, and error rates for users accessing Drive in the affected regions.\n## Remediation\u00a0\nGoogle engineers were alerted to the issue via automated monitoring and an influx of customer support cases, with initial incident response teams engaged by 17:21 US/Pacific on August 18, 2026\\.\nEngineers initially attempted to alleviate the congestion by draining regional frontend traffic to an alternate geographic location, but this proved ineffective and was reverted. The team then mitigated the issue by migrating regional traffic to an upgraded internal network routing architecture, which correctly set the traffic attribution for Drive.\nNormal operations were fully restored once 100% of the regional traffic was migrated to the upgraded network architecture.\n## Description of Impact\nBetween August 18, 2026, at 16:58 US/Pacific and August 19, 2026, at 05:40 US/Pacific, Google Drive users in Australia, Philippines and New Zealand experienced severe latency, degraded performance and 502 errors.\nDuring this roughly 12-hour and 42-minute window, affected customers may have observed significant slowness or errors when attempting to access Google Drive or listing files through Editors (e.g. [docs.google.com](http://docs.google.com)), with initial load times significantly delayed. The issue was fully mitigated as of August 19, 2026, at 05:40 US/Pacific, and normal service has been restored.",
+    "status": "AVAILABLE"
+   },
+   {
+    "created": "2026-08-19T13:05:05+00:00",
+    "modified": "2026-08-20T20:00:17+00:00",
+    "when": "2026-08-19T13:05:05+00:00",
+    "text": "**Summary**\nMultiple customers in Australia and New Zealand may have experienced slowness or errors while accessing Google Drive.\n**Description**\nThe issue with Google Drive has been resolved for all affected customers as of Wednesday, 2026-08-19 05:40 PDT.\nOur engineering teams determined the slowness was the result of a localized capacity and routing issue within our regional infrastructure.\nTo restore service, we implemented a fix to alleviate the network congestion and accelerated a planned infrastructure upgrade in the affected region to ensure normal performance levels.\nWe thank you for your patience while we worked on resolving the issue.\n**Symptoms**\nAffected customers in Australia and New Zealand may have experienced slowness or 502 errors, with some users briefly unable to access Drive.\n**Workaround**\nThe issue is now mitigated",
+    "status": "SERVICE_DISRUPTION"
+   },
+   {
+    "created": "2026-08-19T11:26:14+00:00",
+    "modified": "2026-08-19T13:05:05+00:00",
+    "when": "2026-08-19T11:26:14+00:00",
+    "text": "**Summary**\nMultiple customers in Australia and New Zealand may experience slowness or errors while accessing Google Drive.\n**Description**\nWe are experiencing an issue with Google Drive beginning Tuesday, 2026-08-18 16:58 PDT.\nOur engineering team is actively working on a mitigation strategy. There is no ETA for full resolution.\nWe will provide an update by Wednesday, 2026-08-19 06:00 PDT with current details.\n**Symptoms**\nAffected customers in Australia and New Zealand may experience slowness or 502 errors, with some users briefly unable to access Drive.\n**Workaround**\nNone at this time.",
+    "status": "SERVICE_DISRUPTION"
+   },
+   {
+    "created": "2026-08-19T09:54:28+00:00",
+    "modified": "2026-08-19T11:26:14+00:00",
+    "when": "2026-08-19T09:54:28+00:00",
+    "text": "**Summary**\nMultiple customers in Australia and New Zealand may experience slowness or errors while accessing Google Drive.\n**Description**\nWe are experiencing an issue with Google Drive beginning Tuesday, 2026-08-18 16:58 PDT.\nOur engineering team is actively working on a mitigation strategy. There is no ETA for full resolution.\nWe will provide an update by Wednesday, 2026-08-19 04:30 PDT with current details.\n**Symptoms**\nAffected customers in Australia and New Zealand may experience slowness or 502 errors, with some users briefly unable to access Drive.\n**Workaround**\nNone at this time.",
+    "status": "SERVICE_DISRUPTION"
+   },
+   {
+    "created": "2026-08-19T08:54:05+00:00",
+    "modified": "2026-08-19T09:54:28+00:00",
+    "when": "2026-08-19T08:54:05+00:00",
+    "text": "**Summary**\nMultiple customers in Australia and New Zealand may experience slowness or errors while accessing Google Drive.\n**Description**\nWe are experiencing an issue with Google Drive beginning Tuesday, 2026-08-18 16:58 PDT.\nOur engineering team is actively working on a mitigation strategy. There is no ETA for full resolution.\nWe will provide an update by Wednesday, 2026-08-19 03:00 PDT with current details.\n**Symptoms**\nAffected customers in Australia and New Zealand may experience slowness or 502 errors, with some users briefly unable to access Drive.\n**Workaround**\nNone at this time.",
+    "status": "SERVICE_DISRUPTION"
+   },
+   {
+    "created": "2026-08-19T07:59:51+00:00",
+    "modified": "2026-08-19T08:54:05+00:00",
+    "when": "2026-08-19T07:59:51+00:00",
+    "text": "**Summary**\nMultiple customers in Australia and New Zealand may experience slowness or errors while accessing Google Drive.\n**Description**\nWe are experiencing an issue with Google Drive beginning Tuesday, 2026-08-18 16:58 PDT.\nOur engineering team has identified the root cause of the issue and is actively working on a mitigation strategy. There is no ETA for full resolution.\nWe will provide an update by Wednesday, 2026-08-19 02:00 PDT with current details.\n**Symptoms**\nAffected customers in Australia and New Zealand may experience slowness or 502 errors, with some users briefly unable to access Drive.\n**Workaround**\nNone at this time.",
+    "status": "SERVICE_DISRUPTION"
+   },
+   {
+    "created": "2026-08-19T06:49:41+00:00",
+    "modified": "2026-08-19T07:59:51+00:00",
+    "when": "2026-08-19T06:49:41+00:00",
+    "text": "**Summary**\nMultiple customers in Australia and New Zealand may experience slowness or errors while accessing Google Drive.\n**Description**\nWe are experiencing an issue with Google Drive beginning Tuesday, 2026-08-18 16:58 PDT.\nOur engineering team has identified the root cause of the issue and is actively working on a mitigation strategy. There is no ETA for full resolution.\nWe will provide an update by Wednesday, 2026-08-19 01:30 PDT with current details.\n**Symptoms**\nAffected customers in Australia and New Zealand may experience slowness or 502 errors, with some users briefly unable to access Drive.\n**Workaround**\nNone at this time.",
+    "status": "SERVICE_DISRUPTION"
+   },
+   {
+    "created": "2026-08-19T04:59:07+00:00",
+    "modified": "2026-08-19T06:49:41+00:00",
+    "when": "2026-08-19T04:59:07+00:00",
+    "text": "**Summary**\nMultiple customers in Australia and New Zealand may experience slowness or errors while using Google Drive.\n**Description**\nWe are experiencing an issue with Google Drive beginning Tuesday, 2026-08-18 16:58 PDT.\nOur engineering team is currently working on a potential fix while continuing to investigate the full root cause.\nWe will provide an update by Wednesday, 2026-08-19 00:30 PDT with current details.\n**Symptoms**\nAffected customers in Australia and New Zealand may experience slowness or errors while using Google Drive. Some customers also may observe 502 errors with Drive inaccessible for a brief period.\n**Workaround**\nNone at this time.",
+    "status": "SERVICE_INFORMATION"
+   },
+   {
+    "created": "2026-08-19T03:57:37+00:00",
+    "modified": "2026-08-19T05:21:15+00:00",
+    "when": "2026-08-19T03:57:37+00:00",
+    "text": "**Summary**\nSome customers may experience slowness while using Google Drive.\n**Description**\nWe are experiencing an issue with Google Drive beginning Tuesday, 2026-08-18 16:58 PDT.\nOur engineering team is currently working on a potential fix while continuing to investigate the full root cause.\nWe will provide an update by Tuesday, 2026-08-18 22:00 PDT with current details.\nWe apologize to all who are affected by the disruption.\n**Symptoms**\nAffected customers may experience slowness while using Google Drive.\n**Workaround**\nNone at this time.",
+    "status": "SERVICE_INFORMATION"
+   }
+  ],
+  "most_recent_update": {
+   "created": "2026-08-24T16:31:00+00:00",
+   "modified": "2026-08-24T16:31:00+00:00",
+   "when": "2026-08-24T16:31:00+00:00",
+   "text": "# Incident Report\n## Summary\nOn Tuesday, 18 August 2026 at 16:58 US/Pacific, an incident affecting Google Drive occurred for a duration of 12 hours and 42 minutes. Customers located in Australia, Philippines and New Zealand experienced severe latency, sporadic loading failures, and errors when accessing Google Drive.\u00a0\nTo our valued Google Workspace customers, we are deeply sorry for the service interruption you experienced. We are taking immediate and decisive action to address the issue and strengthen our systems against future incidents. Other Google Workspace services were not affected.\n## Root Cause\nGoogle utilizes a multi-tiered global load balancing and network routing architecture to serve traffic efficiently. To ensure fair use and prevent congestion, bandwidth allocation is managed by attributing traffic to specific downstream services.\nA misconfiguration in the attribution of traffic caused the bandwidth usage to be incorrectly attributed to the frontend network load balancing tier itself, rather than to the Drive service.\nThe sequence of events leading to customer impact was as follows:\n* Traffic from the regional load balancing tier was incorrectly attributed to the load balancing infrastructure rather than the Drive service.\n* Unrelated traffic caused network bandwidth usage attributed to the load balancing infrastructure in this region to exceed its quota.\n* Network bandwidth management systems applied throttling to this traffic to enforce quotas, causing severe network congestion affecting Drive traffic in this region.\n* This congestion led to increased latency, slowness, and error rates for users accessing Drive in the affected regions.\n## Remediation and Prevention\nGoogle engineers were alerted to the issue via automated monitoring and an influx of customer support cases, with initial incident response teams engaged by 17:21 US/Pacific on 18 August , 2026\\.\nEngineers initially attempted to alleviate the congestion by draining regional frontend traffic to an alternate geographic location, but this proved ineffective and was reverted. The team then mitigated the issue by migrating regional traffic to an upgraded internal network routing architecture, which correctly set the traffic attribution for Drive.\nNormal operations were fully restored at 05:40 once 100% of the regional traffic was migrated to the upgraded network architecture.\nTo prevent a recurrence of this issue, our engineering teams are undertaking the following structural preventative actions:\n* **Resilient Network Protocol Migration:** We are expediting the complete migration of all regional frontend traffic to the newer, resilient network routing protocol to ensure accurate bandwidth attribution under all congestion scenarios.\n* **Delegation Root Cause Remediation:** We are addressing the underlying mechanism that caused the incorrect delegation and analyzing similar cases across the fleet to ensure it does not reoccur.\n## Detailed Description of Impact\nFrom 18 August 2026, 16:58 to 19 August 2026, 05:40 US/Pacific for a duration of 12 hours, 42 minutes, Google Drive users in Australia, Philippines and New Zealand experienced severe performance degradation, including high latency and errors accessing Drive or listing files via Editors. Service was fully restored as of 19 August, 05:40 US/Pacific.\n**Google Drive:**\n* Elevated Latency: Users experienced extreme slowness when loading the Drive interface or accessing files, with initial data retrieval times heavily delayed.\n* Loading Failures and Errors: Many user requests timed out or returned HTTP 502 errors due to the aggressive network throttling dropping the connections.\n**Scope Exclusion:**\n* Customers accessing Google Drive from outside the Australia, Philippines and New Zealand regions were largely unaffected by this localized throttling event.\n* Other Google Workspace applications not reliant on this specific routing path remained stable during the incident window.",
+   "status": "AVAILABLE"
+  },
+  "status_impact": "SERVICE_DISRUPTION",
+  "severity": "medium",
+  "service_key": "VHNA7p3Z5p3iakj5sA8V",
+  "service_name": "Google Drive",
+  "affected_products": [
+   {
+    "title": "Google Drive",
+    "id": "VHNA7p3Z5p3iakj5sA8V"
+   }
+  ],
+  "uri": "incidents/sjDiph2NXGAfkYYLfK7T"
+ },
+ {
+  "id": "MpR24eKjibRq1YEEaTfp",
+  "number": "17752500813029482969",
+  "begin": "2026-08-18T19:03:00+00:00",
+  "created": "2026-08-18T19:35:27+00:00",
+  "end": "2026-08-18T22:30:00+00:00",
+  "modified": "2026-08-18T23:02:54+00:00",
+  "external_desc": "**Summary:**\nInvestigating access issues with Classroom\u2019s new web homepage.\n**Description:**\nWe are investigating reports of access issues with Classroom\u2019s new web homepage beginning on Thursday, 2026-08-13.\nOur engineering team is currently working on a potential fix while continuing to investigate the full root cause.\nWe will provide an update by Tuesday, 2026-08-18 13:00 PDT with current details.\nWe apologize to all who are affected by the disruption.\n**Symptoms:**\nAdmins and some Teachers may experience permission errors when accessing Classroom\u2019s new web homepage.\n**Workaround:**\nUsers should still be able to navigate to other views from the left hand pane of the interface.",
+  "updates": [
+   {
+    "created": "2026-08-18T23:02:54+00:00",
+    "modified": "2026-08-18T23:02:54+00:00",
+    "when": "2026-08-18T23:02:54+00:00",
+    "text": "**Summary**\n[Mitigated] Access issues for Workspace Admins with Classroom\u2019s web homepage.\n**Description**\nThe issue with Classroom has been resolved for all affected users as of Tuesday, 2026-08-18 15:30 PDT.\nFrom preliminary analysis, the issue was triggered due to a recent change which caused the permission mismatch, our Engineering team has rolled out the fix to mitigate the impact.\nWe thank you for your patience while we worked on resolving the issue.\n**Symptoms**\nWorkspace Admins may have experienced permission errors when accessing Classroom\u2019s web homepage.\nRemaining Classroom functionality remained unaffected.\nThe Classroom Mobile App and the Classroom API were unaffected by the issue.\n**Workaround**\nNone as the issue is resolved",
+    "status": "AVAILABLE"
+   },
+   {
+    "created": "2026-08-18T20:27:49+00:00",
+    "modified": "2026-08-18T23:02:54+00:00",
+    "when": "2026-08-18T20:27:49+00:00",
+    "text": "**Summary:**\nMitigating access issues for Workspace Admins with Classroom\u2019s web homepage.\n**Description:**\nOur engineering has identified the cause and mitigation work is currently underway.\nThe mitigation rollout is expected to take several hours.\nWe will provide more information by Wednesday, 2026-08-19 8:00 PDT.\n**Symptoms:**\nWorkspace Admins may experience permission errors when accessing Classroom\u2019s web homepage.\nRemaining Classroom functionality remains unaffected.\nThe Classroom Mobile App and the Classroom API are unaffected by the issue.\n**Workaround:**\nAll other pages are unaffected and admins can navigate to other pages using the left hand pane on the interface.\nWorkspace Admins can still create classes without any issue.\nWorkspace Admins can also view the courses that they are in by going to https://classroom.google.com/h/tv",
+    "status": "SERVICE_INFORMATION"
+   },
+   {
+    "created": "2026-08-18T20:00:36+00:00",
+    "modified": "2026-08-18T20:27:49+00:00",
+    "when": "2026-08-18T20:00:36+00:00",
+    "text": "**Summary:**\nMitigating access issues with Classroom\u2019s new web homepage.\n**Description:**\nMitigation work is currently underway by our engineering team.\nThe mitigation is expected to complete by Tuesday, 2026-08-18 14:00 PDT.\nWe will provide more information by Tuesday, 2026-08-18 14:15 PDT.\n**Symptoms:**\nAdmins and some Teachers may experience permission errors when accessing Classroom\u2019s new web homepage.\n**Workaround:**\nUsers should still be able to navigate to other views from the left hand pane of the interface.",
+    "status": "SERVICE_INFORMATION"
+   },
+   {
+    "created": "2026-08-18T19:35:27+00:00",
+    "modified": "2026-08-18T20:11:32+00:00",
+    "when": "2026-08-18T19:35:27+00:00",
+    "text": "**Summary:**\nInvestigating access issues with Classroom\u2019s new web homepage.\n**Description:**\nWe are investigating reports of access issues with Classroom\u2019s new web homepage beginning on Thursday, 2026-08-13.\nOur engineering team is currently working on a potential fix while continuing to investigate the full root cause.\nWe will provide an update by Tuesday, 2026-08-18 13:00 PDT with current details.\nWe apologize to all who are affected by the disruption.\n**Symptoms:**\nAdmins and some Teachers may experience permission errors when accessing Classroom\u2019s new web homepage.\n**Workaround:**\nUsers should still be able to navigate to other views from the left hand pane of the interface.",
+    "status": "SERVICE_INFORMATION"
+   }
+  ],
+  "most_recent_update": {
+   "created": "2026-08-18T23:02:54+00:00",
+   "modified": "2026-08-18T23:02:54+00:00",
+   "when": "2026-08-18T23:02:54+00:00",
+   "text": "**Summary**\n[Mitigated] Access issues for Workspace Admins with Classroom\u2019s web homepage.\n**Description**\nThe issue with Classroom has been resolved for all affected users as of Tuesday, 2026-08-18 15:30 PDT.\nFrom preliminary analysis, the issue was triggered due to a recent change which caused the permission mismatch, our Engineering team has rolled out the fix to mitigate the impact.\nWe thank you for your patience while we worked on resolving the issue.\n**Symptoms**\nWorkspace Admins may have experienced permission errors when accessing Classroom\u2019s web homepage.\nRemaining Classroom functionality remained unaffected.\nThe Classroom Mobile App and the Classroom API were unaffected by the issue.\n**Workaround**\nNone as the issue is resolved",
+   "status": "AVAILABLE"
+  },
+  "status_impact": "SERVICE_INFORMATION",
+  "severity": "low",
+  "service_key": "3GoNVrVz48jeNZSyLJMV",
+  "service_name": "Classroom",
+  "affected_products": [
+   {
+    "title": "Classroom",
+    "id": "3GoNVrVz48jeNZSyLJMV"
+   }
+  ],
+  "uri": "incidents/MpR24eKjibRq1YEEaTfp"
+ },
+ {
+  "id": "AWyE1SfEzpe8Qed49Rog",
+  "number": "12918412236754833550",
+  "begin": "2026-06-30T09:03:00+00:00",
+  "created": "2026-06-30T11:56:57+00:00",
+  "end": "2026-07-01T03:45:00+00:00",
+  "modified": "2026-07-01T04:58:32+00:00",
+  "external_desc": "**Title**\nInbound emails from customers to Google Support are experiencing issues.\n**Description**\nWe are experiencing an issue with Google Cloud Support beginning on Tuesday, 2026-06-30 02:03 PDT.\nOur engineering team continues to investigate the issue.\nWe will provide an update by Tuesday, 2026-06-30 05:30 PDT with current details.\nWe apologize to all who are affected by the disruption.\n**Symptoms**\nInbound emails from customers to Google Support are experiencing issues.\nCase creation continues to work.\n**Workaround**\nNone at this time.",
+  "updates": [
+   {
+    "created": "2026-07-01T04:58:32+00:00",
+    "modified": "2026-07-01T04:58:32+00:00",
+    "when": "2026-07-01T04:58:32+00:00",
+    "text": "**Title**\n[Resolved] Inbound emails from customers to Google Support were experiencing issues.\n**Description**\nThe issue with inbound emails to Google Cloud Support has been resolved for all affected customers as of Tuesday, 2026-06-30 20:45 PDT.\nFrom preliminary analysis, the engineering team identified a recent change which was preventing incoming emails from being processed. We have successfully rolled back the change to mitigate the impact.\nBacklog processing of all the affected emails is now complete.\nWe thank you for your patience while we worked on resolving the issue.\n**Symptoms**\nInbound emails from customers to Google Support were experiencing issues.\nCase creation and updates continued to work without any issues.\n**Workaround**\nNone as the issue is resolved.",
+    "status": "AVAILABLE"
+   },
+   {
+    "created": "2026-07-01T00:44:02+00:00",
+    "modified": "2026-07-01T04:58:32+00:00",
+    "when": "2026-07-01T00:44:02+00:00",
+    "text": "**Title**\nInbound emails from customers to Google Support are experiencing issues.\n**Description**\nThe mitigation rollout was completed as of 09:00 AM PDT on 30 June 2026, and all incoming emails are currently being processed without further disruption.\nOur engineers are continuing to work replaying the inbound messages that were impacted between 25 June 2026 and 09:00 AM PDT on 30 June 2026. We expect the email replays to take several hours, please be advised that this backlog processing may cause case statuses to update dynamically or cause certain closed cases to temporarily reopen.\nWe will provide more information by Tuesday, 2026-06-30 21:30 PDT.\n**Symptoms**\nInbound emails from customers to Google Support after 09:00 AM PDT on 30 June 2026 are working as expected. The affected emails from the time of the issue are being replayed.\nCase creation and updates continues to work without any issues.\n**Workaround**\nCustomers can continue to use the portal to add comments / notes.",
+    "status": "SERVICE_DISRUPTION"
+   },
+   {
+    "created": "2026-06-30T19:03:19+00:00",
+    "modified": "2026-07-01T00:44:02+00:00",
+    "when": "2026-06-30T19:03:19+00:00",
+    "text": "**Title**\nInbound emails from customers to Google Support are experiencing issues.\n**Description**\nThe mitigation rollout was completed as of 09:00 AM PDT on 30 June 2026, and all incoming emails are currently being processed without further disruption.\nOur engineers are continuing to work replaying the inbound messages that were impacted between 25 June 2026 and 09:00 AM PDT on 30 June 2026. We expect the email replays to take several hours, please be advised that this backlog processing may cause case statuses to update dynamically or cause certain closed cases to temporarily reopen.\nWe will provide more information by Tuesday, 2026-06-30 17:00 PDT.\n**Symptoms**\nInbound emails from customers to Google Support after 09:00 AM PDT on 30 June 2026 are working as expected. The affected emails from the time of the issue are being replayed.\nCase creation and updates continues to work without any issues.\n**Workaround**\nCustomers can continue to use the portal to add comments / notes.",
+    "status": "SERVICE_DISRUPTION"
+   },
+   {
+    "created": "2026-06-30T17:53:29+00:00",
+    "modified": "2026-06-30T19:03:19+00:00",
+    "when": "2026-06-30T17:53:29+00:00",
+    "text": "**Title**\nInbound emails from customers to Google Support are experiencing issues.\n**Description**\nThe mitigation rollout was completed as of 09:00 AM PDT on 30 June 2026, and all incoming emails are currently being processed without further disruption.\nOur engineers are continuing to work replaying the inbound messages that were impacted between 25 June 2026 and 09:00 AM PDT on 30 June 2026. We expect the email replays to take several hours, please be advised that this backlog processing may cause case statuses to update dynamically or cause certain closed cases to temporarily reopen.\nWe will provide more information by Tuesday, 2026-06-30 12:15 PDT.\n**Symptoms**\nInbound emails from customers to Google Support are experiencing issues.\nCase creation and updates continues to work without any issues.\n**Workaround**\nCustomers can continue to use the portal to add comments / notes.",
+    "status": "SERVICE_DISRUPTION"
+   },
+   {
+    "created": "2026-06-30T16:36:46+00:00",
+    "modified": "2026-06-30T17:53:29+00:00",
+    "when": "2026-06-30T16:36:46+00:00",
+    "text": "**Title**\nInbound emails from customers to Google Support are experiencing issues.\n**Description**\nThe mitigation rollout was completed as of 09:00 AM PDT on 30 June 2026, and all incoming emails are currently being processed without further disruption.\nOur engineering teams have shifted focus to replaying the inbound messages that were impacted between 25 June 2026 and 09:00 AM PDT on 30 June 2026.\nWhile there is currently no specific ETA for the email replay to finish, please be advised that this backlog processing may cause case statuses to update dynamically or cause certain closed cases to temporarily reopen.\nWe will provide more information by Tuesday, 2026-06-30 11:00 PDT.\n**Symptoms**\nInbound emails from customers to Google Support are experiencing issues.\nCase creation and updates continues to work without any issues.\n**Workaround**\nCustomers can continue to use the portal to add comments / notes.",
+    "status": "SERVICE_DISRUPTION"
+   },
+   {
+    "created": "2026-06-30T15:48:35+00:00",
+    "modified": "2026-06-30T16:36:46+00:00",
+    "when": "2026-06-30T15:48:35+00:00",
+    "text": "**Title**\nInbound emails from customers to Google Support are experiencing issues.\n**Description**\nMitigation work is currently underway by our engineering team.\nThe mitigation is expected to complete by Tuesday, 2026-06-30 09:45 PDT.\nWe will provide more information by Tuesday, 2026-06-30 10:00 PDT.\n**Symptoms**\nInbound emails from customers to Google Support are experiencing issues.\nCase creation and updates continues to work without any issues.\n**Workaround**\nCustomers can continue to use the portal to add comments / notes.",
+    "status": "SERVICE_DISRUPTION"
+   },
+   {
+    "created": "2026-06-30T14:51:10+00:00",
+    "modified": "2026-06-30T15:48:35+00:00",
+    "when": "2026-06-30T14:51:10+00:00",
+    "text": "**Title**\nInbound emails from customers to Google Support are experiencing issues.\n**Description**\nMitigation work is currently underway by our engineering team.\nWe do not have an ETA for mitigation at this point.\nWe will provide more information by Tuesday, 2026-06-30 08:45 PDT.\n**Symptoms**\nInbound emails from customers to Google Support are experiencing issues.\nCase creation and updates continues to work without any issues.\n**Workaround**\nCustomers can continue to use the portal to add comments / notes.",
+    "status": "SERVICE_DISRUPTION"
+   },
+   {
+    "created": "2026-06-30T14:06:26+00:00",
+    "modified": "2026-06-30T14:51:10+00:00",
+    "when": "2026-06-30T14:06:26+00:00",
+    "text": "**Title**\nInbound emails from customers to Google Support are experiencing issues.\n**Description**\nWe are experiencing an issue with Google Cloud Support beginning on Tuesday, 2026-06-30 02:03 PDT.\nOur engineering team continues to investigate the issue.\nWe will provide an update by Tuesday, 2026-06-30 08:00 PDT with current details.\nWe apologize to all who are affected by the disruption.\n**Symptoms**\nInbound emails from customers to Google Support are experiencing issues.\nCase creation continues to work.\n**Workaround**\nCustomers can continue to use the portal to add comments / notes.",
+    "status": "SERVICE_DISRUPTION"
+   },
+   {
+    "created": "2026-06-30T13:28:46+00:00",
+    "modified": "2026-06-30T14:06:26+00:00",
+    "when": "2026-06-30T13:28:46+00:00",
+    "text": "**Title**\nInbound emails from customers to Google Support are experiencing issues.\n**Description**\nWe believe the issue with Google Support is mitigated.\nOur engineering team continues to investigate the root cause.\nCustomers are being advised if they have an urgent issue to resend previous communication to Google Support.\nWe will provide an update by Tuesday, 2026-06-30 08:00 PDT with current details.\nWe apologize to all who are affected by the disruption.\n**Symptoms**\nInbound emails from customers to Google Support are experiencing issues.\nCase creation continues to work.\n**Workaround**\nCustomers can continue to use the portal to add comments / notes.",
+    "status": "SERVICE_DISRUPTION"
+   },
+   {
+    "created": "2026-06-30T12:28:59+00:00",
+    "modified": "2026-06-30T13:28:46+00:00",
+    "when": "2026-06-30T12:28:59+00:00",
+    "text": "**Title**\nInbound emails from customers to Google Support are experiencing issues.\n**Description**\nWe believe the issue with Google Support is mitigated.\nOur engineering team continues to investigate the root cause.\nCustomers are being advised if they have an urgent issue to resend previous communication to Google Support.\nWe will provide an update by Tuesday, 2026-06-30 06:30 PDT with current details.\nWe apologize to all who are affected by the disruption.\n**Symptoms**\nInbound emails from customers to Google Support are experiencing issues.\nCase creation continues to work.\n**Workaround**\nCustomers can continue to use the portal to add comments / notes.",
+    "status": "SERVICE_DISRUPTION"
+   },
+   {
+    "created": "2026-06-30T12:17:19+00:00",
+    "modified": "2026-06-30T12:28:59+00:00",
+    "when": "2026-06-30T12:17:19+00:00",
+    "text": "**Title**\nInbound emails from customers to Google Support are experiencing issues.\n**Description**\nWe believe the issue with Google Support is mitigated.\nOur engineering team continues to investigate the root cause.\nCustomers are being advised if they have an urgent issue to resend previous communication to Google Support.\nWe will provide an update by Tuesday, 2026-06-30 06:30 PDT with current details.\nWe apologize to all who are affected by the disruption.\n**Symptoms**\nInbound emails from customers to Google Support are experiencing issues.\nCase creation continues to work.\n**Workaround**\nNone at this time.",
+    "status": "SERVICE_DISRUPTION"
+   },
+   {
+    "created": "2026-06-30T11:56:57+00:00",
+    "modified": "2026-06-30T12:17:19+00:00",
+    "when": "2026-06-30T11:56:57+00:00",
+    "text": "**Title**\nInbound emails from customers to Google Support are experiencing issues.\n**Description**\nWe are experiencing an issue with Google Cloud Support beginning on Tuesday, 2026-06-30 02:03 PDT.\nOur engineering team continues to investigate the issue.\nWe will provide an update by Tuesday, 2026-06-30 05:30 PDT with current details.\nWe apologize to all who are affected by the disruption.\n**Symptoms**\nInbound emails from customers to Google Support are experiencing issues.\nCase creation continues to work.\n**Workaround**\nNone at this time.",
+    "status": "SERVICE_DISRUPTION"
+   }
+  ],
+  "most_recent_update": {
+   "created": "2026-07-01T04:58:32+00:00",
+   "modified": "2026-07-01T04:58:32+00:00",
+   "when": "2026-07-01T04:58:32+00:00",
+   "text": "**Title**\n[Resolved] Inbound emails from customers to Google Support were experiencing issues.\n**Description**\nThe issue with inbound emails to Google Cloud Support has been resolved for all affected customers as of Tuesday, 2026-06-30 20:45 PDT.\nFrom preliminary analysis, the engineering team identified a recent change which was preventing incoming emails from being processed. We have successfully rolled back the change to mitigate the impact.\nBacklog processing of all the affected emails is now complete.\nWe thank you for your patience while we worked on resolving the issue.\n**Symptoms**\nInbound emails from customers to Google Support were experiencing issues.\nCase creation and updates continued to work without any issues.\n**Workaround**\nNone as the issue is resolved.",
+   "status": "AVAILABLE"
+  },
+  "status_impact": "SERVICE_DISRUPTION",
+  "severity": "medium",
+  "service_key": "dnz8HVUHoMMcW9wV91LY",
+  "service_name": "Google Workspace Support",
+  "affected_products": [
+   {
+    "title": "Google Workspace Support",
+    "id": "dnz8HVUHoMMcW9wV91LY"
+   }
+  ],
+  "uri": "incidents/AWyE1SfEzpe8Qed49Rog"
+ }
+]
